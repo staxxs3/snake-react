@@ -1,0 +1,44 @@
+.board{
+    margin: auto;
+    background: #273c75;
+    overflow: hidden;
+    outline: none;
+    border: 3px solid #44bd32;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cell, .body-cell, .food-cell, .stone-cell{
+    width: 15px;
+    height: 15px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 1px solid #000000
+
+}
+
+.body-cell{
+    background: #44bd32;
+
+}
+
+
+.food-cell{
+    background: #e84118;
+}
+
+.stone-cell{
+    background: black;
+}
+
+body{
+    background-color: #273c75;
+
+}
+
+.h1{
+    color: #44bd32;
+}
